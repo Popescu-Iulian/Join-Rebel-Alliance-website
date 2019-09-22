@@ -107,4 +107,15 @@ body {
   width: 20rem;
   text-align: center;
   margin-top: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2180d8;
+}
+
+.btn:focus {
+  background-color: #2796ff;
 }
