@@ -87,19 +87,19 @@
 .join-page-circle-2 {
   position: absolute;
   overflow: hidden;
-  width: 35vw;
-  height: 35vw;
-  bottom: 0;
-  left: 0;
+  width: 30vw;
+  height: 30vw;
+  top: 0;
+  left: 20vw;
   z-index: -1;
 }
 
 .join-page-circle-2::before {
   content: '';
-  transform: translateX(-20%);
+  transform: translateY(-30%);
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(155, 13, 91, 0.1);
+  background-color: rgba(32, 6, 150, 0.1);
 }
