@@ -25,12 +25,11 @@ body {
   text-decoration: none;
 }
 
-
 .brand-logo-name {
   margin-left: 1rem;
 }
 
-.main-nav ul, 
+.main-nav ul,
 .footer-nav ul {
   display: flex;
   margin: 0;
@@ -38,7 +37,7 @@ body {
   list-style: none;
 }
 
-.main-nav a, 
+.main-nav a,
 .footer-nav a {
   color: inherit;
   text-decoration: none;
@@ -47,10 +46,10 @@ body {
 
 .main-nav a:hover,
 .footer-nav a:hover {
-  color: #adadad;
+  color: lightcoral;
 }
 
-.main-header, 
+.main-header,
 .main-footer {
   display: flex;
   justify-content: space-between;
@@ -69,7 +68,7 @@ body {
 
 .social-link img {
   width: 1.1rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .main-footer .container {
@@ -100,10 +99,10 @@ body {
 .btn {
   color: white;
   background-color: #1762a7;
-  padding: .75rem 1.5rem;
-  border-radius: .5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
   text-decoration: none;
-  font-size: .9rem;
+  font-size: 0.9rem;
   display: block;
   text-align: center;
   margin-top: 1rem;
@@ -122,16 +121,14 @@ body {
 
 @media (max-width: 800px) {
   .main-footer {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 
   .title {
     font-size: 2.4rem;
-
   }
 
   .subtitle {
     font-size: 1.2rem;
   }
-
 }
